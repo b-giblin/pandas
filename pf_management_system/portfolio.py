@@ -62,6 +62,8 @@ class Portfolio:
 portfolio = Portfolio()
 portfolio.add_asset("AAPL", 10)  # Adding 10 AAPL stocks, price fetched from Yahoo Finance
 portfolio.add_asset("GOOGL", 5)  # Adding 5 GOOGL stocks, price fetched from Yahoo Finance
+portfolio.add_asset("MSFT", 20)  # Adding 20 MSFT stocks, price fetched from Yahoo Finance
+portfolio.add_asset("FB", 30)  # Adding 30 FB stocks, price fetched from Yahoo Finance
 portfolio.update_prices()  # Update all asset prices to latest from Yahoo Finance
 
 print(portfolio.top_assets())  # Displaying the top assets by value
